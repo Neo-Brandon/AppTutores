@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grupos y Asignacion</title>
+  <link rel="stylesheet" href="css/GyA.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+<header class="header">
+    <h1 class="header-title">Tutorías</h1>
+    <div class="menu-icon">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</header>
+
+  <div class="container">
+    <h1>Grupos</h1>
+    &nbsp
+    <div class="search-area">
+        <button class="crt-btn">
+            <i class="fas fa-square-plus"></i>
+            Crear Grupo
+          </button>
+    </div>
+
+    <div class="group-list" id="GroupList">
+
+        <div class="group-item">
+            <div class="group-info">
+                <div class="group-avatar" style="background-image: url('https://dummyimage.com/40x40/0e755b/fff&text=Grupo')"></div>
+                <div class="group-details">
+                    <div class="group-name">Grupo 1</div>
+                    <div class="group-meta">
+                        Generación: 2022<br>
+                        Período de Registro: Ene/Jun<br>
+                        Tutor: X
+                    </div>
+                </div>
+            </div>
+            <div class="group-actions">
+                <button class="action-btn edit-btn"><i class="fas fa-edit"></i> Editar</button>
+                <button class="action-btn delete-btn"><i class="fas fa-trash"></i> Eliminar</button>
+            </div>
+        </div>
+
+        <div class="group-item">
+            <div class="group-info">
+                <div class="group-avatar" style="background-image: url('https://dummyimage.com/40x40/0e755b/fff&text=Grupo')"></div>
+                <div class="group-details">
+                    <div class="group-name">Grupo 2</div>
+                    <div class="group-meta">
+                        Generación: 2023<br>
+                        Período de Registro: Ago/Dic<br>
+                        Tutor: X
+                    </div>
+                </div>
+            </div>
+            <div class="group-actions">
+                <button class="action-btn edit-btn"><i class="fas fa-edit"></i> Editar</button>
+                <button class="action-btn delete-btn"><i class="fas fa-trash"></i> Eliminar</button>
+            </div>
+        </div>
+
+    </div>
+  </div>
+
+  <script src="scripts/GyAScript.js"></script>
+</body>
+</html>

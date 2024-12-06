@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Editar Grupo</title>
+  <link rel="stylesheet" href="css/eAluAdmin.css">
+</head>
+<body>
+
+<header class="header">
+    <h1 class="header-title">Tutorías</h1>
+    <div class="menu-icon">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</header>
+
+  <div class="container">
+    <h1>Editar Grupo</h1>
+
+    <div class="student-info">
+      <div class="student-avatar" id="studentAvatar" style="background-image: url('https://dummyimage.com/40x40/0e755b/fff&text=Grupo')"></div>
+      <div class="student-name" id="studentName">Grupo 3</div>
+    </div>
+    <form id="editForm">
+
+      <label for="group-generation">Generación:</label>
+      <input type="text" id="group-generation" name="group-generation" required>
+
+      <label for="group-period">Periodo de Registro:</label>
+      <input type="text" id="group-period" name="group-period" required>
+
+      <label for="group-tutor">Tutor:</label>
+      <input type="text" id="group-tutor" name="group-tutor" required>
+
+      
+    </form>
+    &nbsp
+    <div class="form-group">
+      <button type="submit" class="submit-btn">Guardar</button>
+      <button type="button" class="cancel-btn">Cancelar</button>
+    </div>
+
+  </div>
+</body>
+</html>

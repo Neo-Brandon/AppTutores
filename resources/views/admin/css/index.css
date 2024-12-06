@@ -1,0 +1,62 @@
+:root {
+    --color-input: #ACE7B9;
+    --color-boton: #228C3F;
+}
+
+/* Contenedor general */
+.inicio {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Texto centrado y alineado a la izquierda */
+.texto {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    margin: 20px auto;
+    max-width: 320px;
+}
+
+.texto h1 {
+    font-size: 28px;
+    margin: 10px 0;
+    font-weight: normal;
+}
+
+.texto h3 {
+    font-size: 18px;
+    margin: 10px 0;
+    font-weight: normal;
+}
+
+/* Imagen */
+.inicio img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Inputs y botón */
+.inicio input,
+.inicio button {
+    font-size: 16px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: none;
+}
+
+.inicio input {
+    background-color: var(--color-input);
+}
+
+.inicio button {
+    background-color: var(--color-boton);
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.inicio button:hover {
+    background-color: #1c7031;
+}

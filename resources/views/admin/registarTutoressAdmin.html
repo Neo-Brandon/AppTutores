@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usuarios Administrador</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/registrar.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="header-title">Tutorías</h1>
+        <div class="menu-icon">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </header>
+
+    <div class="container">
+        <h1>Registrar Tutor</h1>
+        <p>Registre manualmente a un Tutor</p>
+        &nbsp
+        <form>
+          <div class="form-group">
+            <label for="name">Nombre</label>
+            <input type="text" class="form-control" id="name" placeholder="Ingrese el nombre">
+          </div>
+          <div class="form-group">
+            <label for="paterno">Apellido Paterno</label>
+            <input type="text" class="form-control" id="paterno" placeholder="Ingrese el apellido paterno">
+          </div>
+          <div class="form-group">
+            <label for="materno">Apellido Materno</label>
+            <input type="text" class="form-control" id="materno" placeholder="Ingrese el apellido materno">
+          </div>
+          <div class="form-group">
+            <label for="semester">Grupo Asignado</label>
+            <select class="form-control" id="semester">
+              <option>Seleccione un Grupo</option>
+              <!-- Aqui agregar mas opciones -->
+            </select>
+          </div>
+          <button type="submit" class="btn btn-primary">Registrar Alumno</button>
+        </form>
+      </div>
+</body>
+</html>

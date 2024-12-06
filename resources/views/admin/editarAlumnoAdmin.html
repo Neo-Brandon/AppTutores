@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Editar Alumno</title>
+  <link rel="stylesheet" href="css/eAluAdmin.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    
+    <header class="header">
+        <h1 class="header-title">Tutorías</h1>
+        <div class="menu-icon">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </header>
+
+  <div class="container">
+    <h1>Editar Alumno</h1>
+    <div class="student-info">
+      <div class="student-avatar" id="studentAvatar" style="background-image: url('https://dummyimage.com/80x80/f008f0/fff&text=Avatar')"></div>
+      <div class="student-name" id="studentName">Jimena Vinoche Paz</div>
+    </div>
+    <form id="editForm">
+      <div class="form-group">
+        <label for="group">Grupo:</label>
+        <select id="group" name="group" required>
+          <option value="">Selecciona un grupo</option>
+          <option value="grupo1">Grupo 1</option>
+          <option value="grupo2">Grupo 2</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <button type="submit" class="submit-btn">Guardar</button>
+        <button type="button" class="cancel-btn">Cancelar</button>
+      </div>
+    </form>
+  </div>
+
+  <script src="scripts/uAAdminScript.js"></script>
+</body>
+</html>

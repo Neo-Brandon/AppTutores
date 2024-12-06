@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alumnos</title>
+  <link rel="stylesheet" href="css/uAluAdmin.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+<header class="header">
+    <h1 class="header-title">Tutorías</h1>
+    <div class="menu-icon">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</header>
+
+  <div class="container">
+    <h1>Alumnos</h1>
+    &nbsp
+    <div class="search-area">
+      <input type="text" placeholder="Elija las acciones a seguir" id="searchInput">
+      <i class="fas fa-search search-icon"></i>
+      <button class="filter-btn">
+        <i class="fas fa-filter"></i>
+        Filtrar
+      </button>
+    </div>
+    <div class="student-list" id="studentList">
+      <div class="student-item" data-student-id="1">
+        <div class="student-info">
+          <div class="student-avatar" style="background-image: url('https://dummyimage.com/40x40/f008f0/fff&text=Avatar')"></div>
+          <div class="student-name">Jimena Vinoche Paz</div>
+        </div>
+        <div class="student-actions">
+          <button class="action-btn edit-btn"><i class="fas fa-edit"></i> Editar</button>
+          <button class="action-btn2 delete-btn"><i class="fas fa-trash"></i> Eliminar</button>
+        </div>
+      </div>
+      <div class="student-item" data-student-id="2">
+        <div class="student-info">
+          <div class="student-avatar" style="background-image: url('https://dummyimage.com/40x40/f008f0/fff&text=Avatar')"></div>
+          <div class="student-name">David Alfonso Gutierrez</div>
+        </div>
+        <div class="student-actions">
+          <button class="action-btn edit-btn"><i class="fas fa-edit"></i> Editar</button>
+          <button class="action-btn2 delete-btn"><i class="fas fa-trash"></i> Eliminar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="scripts/uAAdminScript.js"></script>
+</body>
+</html>
